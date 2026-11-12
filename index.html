@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Path Planning | DAA Unit IV</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fc;
+            color: #263449
+        }
+
+        header {
+            background: linear-gradient(120deg, #102b50, #2466a5);
+            color: white;
+            text-align: center;
+            padding: 75px 20px
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin: 0 0 15px
+        }
+
+        header p {
+            font-size: 17px
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px
+        }
+
+        section {
+            background: white;
+            padding: 28px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #0001
+        }
+
+        h2 {
+            color: #174b7b
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 18px
+        }
+
+        .item {
+            background: #edf4fc;
+            padding: 18px;
+            border-radius: 9px
+        }
+
+        .download {
+            text-align: center;
+            background: #eaf3ff
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1769d2;
+            color: white;
+            padding: 15px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold
+        }
+
+        .btn:hover {
+            background: #104e9e
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #68758a
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Robotics Path Planning</h1>
+        <p>Algorithmic Optimization Lab | Design and Analysis of Algorithms – Unit IV</p>
+    </header>
+    <main>
+        <section>
+            <h2>Project Overview</h2>
+            <p>An interactive JavaFX application demonstrating Backtracking and Branch and Bound algorithms through
+                practical problem-solving scenarios.</p>
+        </section>
+        <section>
+            <h2>Algorithms Implemented</h2>
+            <div class="grid">
+                <div class="item">
+                    <h3>8 Queens</h3>
+                    <p>Backtracking algorithm for collision-free placement.</p>
+                </div>
+                <div class="item">
+                    <h3>Hamiltonian Cycle</h3>
+                    <p>Backtracking for circuit routing.</p>
+                </div>
+                <div class="item">
+                    <h3>Travelling Salesman Problem</h3>
+                    <p>Branch and Bound for optimal air cargo routes.</p>
+                </div>
+                <div class="item">
+                    <h3>Knapsack</h3>
+                    <p>Branch and Bound for investment optimization.</p>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <h2>Download Application</h2>
+            <p>Download the Windows application package and extract its contents.</p>
+            <a class="btn"
+                href="https://github.com/SunkuSreeja/DAA_Unit4/releases/download/v1.0/Robotics-Path-Planning-Windows.zip">Download
+                Application</a>
+            <p>After extraction, run <b>run.bat</b>. Java must be installed.</p>
+        </section>
+    </main>
+    <footer>Robotics Path Planning – Algorithmic Optimization Lab</footer>
+</body>
+
+</html>
